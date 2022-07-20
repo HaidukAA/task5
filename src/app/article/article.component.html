@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&family=Roboto&display=swap" rel="stylesheet">
+        <title>Article page</title>
+    </head>
+
+    <body>
+        <div class="wrapper">
+           <header class="header">
+                <div class="_container">
+                    <h1>How To Add Confidence Intervals to Any Model</h1>
+                    
+                    
+                    <div class="caption_container _container">
+                        <img class="authorImg" src="assets/img/tyler.png" alt="user">
+
+                        <a class="avtorName" href="">TYLER FOLKMAN</a>
+                        <ul class="reactions">
+                            <li class="reactionsText">November 29, 2019</li>
+                            <img class="reactionsImg" src="assets/img/Vector.svg" alt="kudos">
+                            <li class="reactionsText">147</li>
+                            <li><img class="reactionsImg" src="assets/img/star.svg" alt="star"></li>
+                        </ul>
+                        
+                    </div>
+                </div>
+            </header>
+
+            <main class="main">
+                <div class="main_container _container">
+
+                    <img class="img" src="assets/img/ImageBig.png" alt="model">
+
+                    <div class="text">
+                        <p>“Can I trust your model?”</p>
+                        <p>It is the first thing your manager asks as you present your latest work. 
+                            How do you answer? Do you refer to the mean squared error? the R² coefficient? 
+                            How about some example results? These are all great, but I would like to add another 
+                            technique to your toolkit — confidence intervals.
+                        </p>
+                        <h2>Trust</h2>
+                        <p>At the end of the day, one of the most important jobs any data scientist has is to 
+                            help people trust an algorithm that they most likely don’t completely understand.
+                        </p>
+                        <p>One way to help build this trust is to add confidence intervals to your model's predictions. 
+                            We will define confidence intervals for this article as a way of quantifying the uncertainty 
+                            of an estimate. This tends to be easier for classification problems. Most algorithms provide 
+                            probability estimates which can serve as confidence scores. For example, 
+                            a 90% probability of being a cat should be more confident than a 50% probability.
+                        </p>
+                        <p class="pLast">
+                            For regression problems, though, things tend to get trickier. Most algorithms don’t have 
+                            a natural way of providing a confidence or probability score. There are many solutions to 
+                            this problem, one of my favorite being Bayesian models, but I would like to discuss the 
+                            simplest and easiest method to implement for any machine learning model.
+                        </p>
+
+                    </div>
+                </div>
+            </main>
+
+            <footer class="footer">
+                
+                <div class="caption_container _container">
+                    
+                    <img class="authorImg" src="assets/img/tyler.png" alt="user">
+                    <a class="avtorName" href="">TYLER FOLKMAN</a>
+                    <ul class="reactions">
+                        <li class="reactionsText">November 29, 2019</li>
+                        <img class="reactionsImg" src="assets/img/Vector.svg" alt="kudos">
+                        <li class="reactionsText">147</li>
+                        <li><img class="reactionsImg" src="assets/img/star.svg" alt="star"></li>
+                    </ul>
+                    
+                </div>
+            </footer>
+
+            
+           
+        </div>
+        <!--<script src="js/scripts.js"></script>-->
+    </body>
+</html> 
+

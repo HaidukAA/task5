@@ -1,0 +1,150 @@
+@import '../../styles/base/_null.scss';
+
+html, body{
+    height: 100%;
+    font-family: Quicksand;
+    color:#313131;
+}
+
+.wrapper{
+    min-height: 100%;
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    
+}
+
+._container{
+    max-width: 992px;
+    margin: 0px auto;
+    
+}
+
+/*------------MAIN--------------------------------------------------------------------------------------------*/
+
+.main{
+   
+    padding-top: 40px;
+    flex: 1 1 auto;
+}
+
+
+.feedBlok{
+    display: flex;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+    margin-bottom: 40px;
+    
+}
+
+img{
+    padding-right: 32px;
+}
+
+.tegs {
+    padding-top: 24px;
+    display: flex;
+}
+
+a{
+    background: rgba(49, 49, 49, 0.1);
+    border-radius: 12px;
+    padding: 0 12px  0 12px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #313131;
+    text-align: center; 
+    margin-right: 8px;  
+}
+
+h2{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 115%;
+    color: #313131;
+    padding-top: 12px;
+}
+
+p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: rgba(49, 49, 49, 0.85);
+    padding-top: 12px;
+}
+
+.caption_container{
+    padding-top: 41px;
+    display: flex;
+    align-items: center;    
+}
+
+.reactions{
+    
+    justify-content: end;
+    align-items: center;
+    display: flex;
+    padding-right: 24px;
+    
+}
+
+.reactionsNoAvtor{
+    padding-left: 500px;
+    justify-content: end;
+    align-items: center;
+    display: flex;
+    padding-right: 24px;
+    
+}
+
+.avtorName{
+
+padding-right: 335px;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+padding-bottom: 0;
+background: none;
+border-radius: 0;
+color: #313131;
+text-align: center;   
+}
+
+.reactionsText{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(49, 49, 49, 0.73);
+    border-right: 1px solid rgba(49, 49, 49, 0.2);
+    padding-right: 8px;
+    padding-left: 4.5px;
+    
+}
+
+.authorImg{ 
+    border: 1px solid #27AAF0;
+    border-radius: 20px;
+    padding-right: 0;
+}
+
+.reactionsImg{
+    padding-left: 8px;
+    padding-right: 0px;
+}
+
+.buttonLoad{
+    padding: 8px 90px 8px 89px;
+    background: #27AAF0;
+    border-radius: 20px;
+    text-align: center; 
+    margin: auto auto 410px 348px ;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+}
+
+.loadIMG{
+    padding-right: 8px;
+}

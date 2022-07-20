@@ -3,10 +3,20 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ArticleComponent } from './article/article.component';
+import { FeedComponent } from './feed/feed.component';
+import { ErrorComponent } from './error/error.component';
+import { ErrorBlackComponent } from './error-black/error-black.component';
+import { ProfileComponent } from './profile/profile.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ArticleComponent,
+    FeedComponent,
+    ErrorComponent,
+    ErrorBlackComponent,
+    ProfileComponent
   ],
   imports: [
     BrowserModule,

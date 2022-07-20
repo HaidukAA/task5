@@ -1,0 +1,44 @@
+@import '../../styles/base/_null.scss';
+
+html, body{
+    height: 100%;
+    font-family: Quicksand;
+    color:#313131;
+}
+
+.wrapper{
+    min-height: 100%;
+    overflow: hidden;
+
+}
+
+._container{
+    max-width: 1216px;
+    margin: 0px auto;
+   
+}
+/*------------MAIN--------------------------------------------------------------------------------------------*/
+
+.main{
+    padding-top: 196px;
+    padding-bottom: 196px;
+    align-items: center;
+    background: linear-gradient(180deg, #0D162C 64.18%, #153276 118.5%), #0D162C;
+}
+
+.error{    
+    display: flex;
+}
+
+button{
+    padding: 6px 71px 6px 71px;
+    background: #27AAF0;
+    border-radius: 20px;
+    text-align: center; 
+    margin: auto 457px 112px 457px ;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+}
