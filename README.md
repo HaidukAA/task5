@@ -28,3 +28,6 @@ folder, not ‘dist/${your-app-name}’. If you run into difficulties with this,
 https://firebase.google.com/docs/hosting/?authuser=1#implementation_path
 • Add link to deployed project to repo description
 Supplement: Some of the models used in project - Article (post) and Comment (comment)
+
+##Design link - https://www.figma.com/file/oPfhaUW8Vh0oLHUM4YJwrR/Skill%2B%2B?node-
+id=0%3A1&amp;viewport=151%2C197%2C0.4482155442237854
