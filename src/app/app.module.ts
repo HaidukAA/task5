@@ -10,13 +10,17 @@ import { FeedComponent } from './feed/feed.component';
 import { ErrorComponent } from './error/error.component';
 import { ErrorBlackComponent } from './error-black/error-black.component';
 import { ProfileComponent } from './profile/profile.component';
+import { LoginComponent } from './login/login.component';
+import { SiginupComponent } from './siginup/siginup.component';
 
 const appRoutes: Routes = [
   {path: '', component: FeedComponent},
   {path: 'article', component: ArticleComponent},
   {path: 'profile', component: ProfileComponent},
-  {path: 'erro404', component: ErrorComponent},
-  {path: 'erro404black', component: ErrorBlackComponent},
+  {path: 'error404', component: ErrorComponent},
+  {path: 'error404black', component: ErrorBlackComponent},
+  {path: 'login', component: LoginComponent},
+  {path: 'signup', component: SiginupComponent}
 ]
 
 @NgModule({
@@ -26,7 +30,9 @@ const appRoutes: Routes = [
     FeedComponent,
     ErrorComponent,
     ErrorBlackComponent,
-    ProfileComponent
+    ProfileComponent,
+    LoginComponent,
+    SiginupComponent
   ],
   imports: [
     BrowserModule,
